@@ -1,5 +1,5 @@
 a=["597"]
-abc=50000 # aq daweret ramdeni gindat sheinaxos ert failshi
+abc=50000 # ვუთითებთ რაოდენობას, ფაილში რამდენ გენერირებულს ვინახავთ ;)
 for each in a:
     with open(each+".txt") as fp:
         c=0
