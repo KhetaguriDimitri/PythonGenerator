@@ -11,7 +11,7 @@ def save(x):
 
 
 
-a=['596']
+a=['+995']
 generator = wordlist.Generator('0123456789')
 for each in a:
     stn(save,(each,))
