@@ -18,6 +18,3 @@ for each in a:
 
 
 # / Aldi Talk /base / Callmobile
-
-#+491639999000
-#+491770000000
