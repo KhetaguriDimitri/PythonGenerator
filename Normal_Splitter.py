@@ -1,6 +1,6 @@
 import itertools 
 
-name = "571.txt"
+name = "number.txt"
 size = 50000
 
 def grouper(size, iterable, fillvalue=None):
@@ -10,5 +10,5 @@ def grouper(size, iterable, fillvalue=None):
 
 with open(name) as f:
     for i, g in enumerate(grouper(size, f, fillvalue=''), 1):
-        with open('571_{0}.txt'.format(i * size), 'w') as fout:
+        with open('Number_{0}.txt'.format(i * size), 'w') as fout:
             fout.writelines(g)
