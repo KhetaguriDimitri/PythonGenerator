@@ -24,7 +24,7 @@ def convert(somefile,name):
 def main():
     for i in range (1,3):
         st = str(i)+".csv"
-        stri = str(555)+str(i)
+                            #stri = str(Numbers)+str(i) < Number 4Clean
         print(st)
         stri = stri + ".vcf"
         convert(st,stri)
