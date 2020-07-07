@@ -1,6 +1,6 @@
 import itertools 
 
-name = "514.txt"
+name = "number.txt"
 size = 30000
 
 def grouper(size, iterable, fillvalue=None):
